@@ -1,0 +1,185 @@
+body {
+    /*padding-bottom: 70px; */
+    
+    font-family: 'Montserrat', sans-serif;
+}
+/** Fonts **/
+
+.navbar,
+.jumbotron,
+h1,
+h2,
+h3,
+h4,
+label {
+    font-family: 'Raleway', sans-serif;
+}
+/** Navbar **/
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: 500;
+}
+.navbar-default .navbar-brand:hover {
+    font-weight: 900;
+    color: white;
+}
+.char1,
+.char2 {
+    color: orange;
+}
+.char4,
+.char5 {
+    color: green;
+}
+.navbar {
+    background-color: #1C3A40;
+    border-color: #1C3A40;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #5A848C;
+}
+/** Jumbotron **/
+
+.jumbotron {
+    background: url('../images/Udaipur01-lighter-compressed.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+}
+/** Jumbotron Text **/
+
+.jumbotron-content {
+    color: white;
+    padding-top: 200px;
+}
+.btn-info {
+    background-color: #5A848C;
+    border-color: #5A848C;
+}
+.btn-info:hover {
+    background-color: #5A848C;
+    border-color: #5A848C;
+    -webkit-box-shadow: 5px 5px 15px #0A0F0F;
+    -moz-box-shadow: 5px 5px 15px #0A0F0F;
+    box-shadow: 5px 5px 15px #0A0F0F;
+}
+/** Gap-Spacing **/
+
+.gap {
+    padding: 30px;
+}
+/** Services **/
+
+.services-info p {
+    color: grey;
+}
+/** Carousel **/
+
+#custom_carousel .item {
+    color: #000;
+    background-color: white;
+    padding: 20px 0;
+}
+.carousel-inner h2 {
+    color: #403022;
+}
+.carousel-inner h4 {
+    color: grey;
+}
+#custom_carousel .controls {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    background: white;
+}
+#custom_carousel .controls li {
+    display: table-cell;
+    width: 1%;
+    max-width: 90px;
+    border-bottom: 2px solid #5A848C;
+}
+#custom_carousel .controls li.active {
+    background-color: #5A848C;
+    color: white;
+}
+#custom_carousel li:hover {
+    background-color: #5A848C;
+    color: white;
+}
+#custom_carousel .controls a small {
+    overflow: hidden;
+    display: block;
+    font-size: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #403022;
+}
+#custom_carousel .controls li.active a small {
+    color: white;
+}
+/** Service **/
+
+.text-primary {
+    color: #403022;
+}
+/** Map **/
+
+#map {
+    height: 700px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/** contact**/
+
+.contact-info {
+    background-color: #1C3A40;
+    color: white;
+}
+/** Footer **/
+
+.fa-google,
+.fa-facebook,
+.fa-linkedin {
+    color: #5A848C;
+}
+.social-media {
+    padding: 10px;
+}
+.fa-social:hover {
+    color: #E87000;
+    font-weight: bold;
+}
+.social-media .fa-circle {
+    color: white;
+}
+address a {
+    color: #E87000;
+}
+address a:hover {
+    color: #ADB1B2;
+}
+#contact-form {
+    padding-bottom: 20px;
+}
+footer {
+    background-color: #5A848C;
+    padding: 5px;
+    color: white;
+    clear: Both;
+}
+.credit {
+    font-size: 5px;
+}
