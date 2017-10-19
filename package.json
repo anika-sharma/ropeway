@@ -1,0 +1,9 @@
+{
+  "name": "Ropeway India",
+  "description": "A website for a consultant of Ropeway and Tourism in India",
+  "author": "Anika Sharma",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "./index.html"
+  }
+}
